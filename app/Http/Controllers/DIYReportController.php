@@ -45,7 +45,6 @@ class DIYReportController extends Controller
             $status = '預設值';
         }
 
-
         $display = 'panel-info';
         $DIYReports = DIYReport::where('StoreID', 'ablejeans^特殊渠道^特殊渠道')->where('PeriodType', 'L31D')->where('CalDate', new DateTime('2015-01-31'))->get();
         //dd(new DateTime('2015-01-31'));
@@ -58,7 +57,8 @@ class DIYReportController extends Controller
             $report = $DIYReport['PeriodRecords'];
         }
 
-        $KPIAlerts = KPIAlert::where('StoreID', 'ablejeans^特殊渠道^特殊渠道')->where('PeriodType', 'L31D')->where('CalDate', new DateTime('2015-01-31'))->get();
+        $KPIAlerts = KPIAlert::where('StoreID', 'ablejeans^特殊渠道^特殊渠道')->where('PeriodType', 'L31D')->where('CalDate', new DateTime('2015-01-31'))->timeout(-1)->get();
+        //dd($KPIAlerts);
         if(count($KPIAlerts) == 0)
         {
             $KPIAlerts = KPIAlert::where('StoreID', 'jtwr')->where('PeriodType', 'L31D')->where('CalDate', new DateTime('2015-01-31'))->get();

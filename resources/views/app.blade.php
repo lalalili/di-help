@@ -43,7 +43,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
     <div class="navbar-header">
-        <a class="navbar-brand" href="{{url('/')}}">Di - help </a>
+        <a class="navbar-brand">請先確定Mongo連線正常 => CN:10.10.21.72 27017 / TW:10.1.4.47 27017</a>
     </div>
     <!-- /.navbar-header -->
 
@@ -106,11 +106,11 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
                 <li class="active">
-                    {{--<a href="#">--}}
-                        {{--<i class="fa fa-bar-chart fa-fw"></i>--}}
-                        {{--DI - Help--}}
-                        {{--<span class="fa arrow"></span>--}}
-                    {{--</a>--}}
+                    <a href="#">
+                        <i class="fa fa-bar-chart fa-fw"></i>
+                        DI - Help
+                        <span class="fa arrow"></span>
+                    </a>
                     <ul class="nav nav-second-level" style="">
                         <li>
                             <a href="{{url('/store')}}">門店</a>
