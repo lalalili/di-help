@@ -7,7 +7,7 @@
         <form role="form" action="{{url('/store')}}" method="POST">
             <div class="form-group">
                 <div class="col-lg-1">
-                    <label>Server<br></label>
+                    <label>Server</label>
                     <select name="Server" class="form-control">
                         <option value="CN" {{ isset($cn) ? 'selected=selected' : '' }}>CN</option>
                         <option value="TW" {{ isset($tw) ? 'selected="selected' : '' }}>TW</option>
@@ -15,19 +15,19 @@
                 </div>
             </div>
             <div class="form-group">
-                <div class="col-lg-3">
-                    <label>ShopID: <br>(ex:ablejeans)</label>
+                <div class="col-lg-2">
+                    <label>ShopID: (ex:ablejeans)</label>
                     <input name="ShopID" class="form-control" placeholder="" value="{{ $ShopID }}">
                 </div>
             </div>
             <div class="form-group">
-                <div class="col-lg-2">
-                    <label>StoreName: <br>(ex:TJ01SH19天津恒隆广场)</label>
+                <div class="col-lg-5">
+                    <label>StoreName: (ex:TJ01SH19天津恒隆广场)</label>
                     <input name="StoreName" class="form-control" placeholder="" value="{{ $StoreName }}">
                 </div>
             </div>
             <div class="col-lg-2">
-                <label>狀態： <br>{{ $status }}</label>
+                <label>狀態： {{ $status }}</label>
 
                 <div>
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
