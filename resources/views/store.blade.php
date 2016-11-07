@@ -7,7 +7,7 @@
         <form role="form" action="{{url('/store')}}" method="POST">
             <div class="form-group">
                 <div class="col-lg-1">
-                    <label>Server</label>
+                    <label>Server<br></label>
                     <select name="Server" class="form-control">
                         <option value="CN" {{ isset($cn) ? 'selected=selected' : '' }}>CN</option>
                         <option value="TW" {{ isset($tw) ? 'selected="selected' : '' }}>TW</option>
@@ -16,18 +16,18 @@
             </div>
             <div class="form-group">
                 <div class="col-lg-3">
-                    <label>ShopID: (ex:ablejeans)</label>
+                    <label>ShopID: <br>(ex:ablejeans)</label>
                     <input name="ShopID" class="form-control" placeholder="" value="{{ $ShopID }}">
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-lg-2">
-                    <label>StoreName: (ex:TJ01SH19天津恒隆广场)</label>
+                    <label>StoreName: <br>(ex:TJ01SH19天津恒隆广场)</label>
                     <input name="StoreName" class="form-control" placeholder="" value="{{ $StoreName }}">
                 </div>
             </div>
             <div class="col-lg-2">
-                <label>狀態： {{ $status }}</label>
+                <label>狀態： <br>{{ $status }}</label>
 
                 <div>
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -43,7 +43,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="panel panel-new">
-                <div class="panel-heading"> 會員資料 (ex:ablejeans^加盟^北区加盟^购物中心^TJ01SH19 )</div>
+                <div class="panel-heading"> 門店層級 (ex:ablejeans^加盟^北区加盟^购物中心^TJ01SH19 )</div>
                 <div class="panel-body">
                     {{ $StoreID }}
                 </div>
