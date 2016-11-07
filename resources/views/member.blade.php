@@ -16,13 +16,13 @@
                 </div>
                 <div class="form-group">
                     <div class="col-lg-2">
-                        <label>ShopID: (zhoushanxm)</label>
+                        <label>ShopID: (ex:ablejeans)</label>
                         <input name="ShopID" class="form-control" placeholder="" value="{{ $ShopID }}">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-3">
-                        <label>會員編號: (2216000327773)</label>
+                        <label>會員編號: (ex:13542525120)</label>
                         <input name="MemberID" class="form-control" placeholder="" value="{{ $MemberID }}">
                     </div>
                 </div>
@@ -61,8 +61,8 @@
                                     <thead>
                                     <tr>
                                         <th>屬性</th>
-                                        <th>筆數</th>
-                                        <th>比例</th>
+                                        <th>缺失筆數</th>
+                                        <th>缺失比例</th>
                                     </tr>
                                     </thead>
                                     <tbody>
