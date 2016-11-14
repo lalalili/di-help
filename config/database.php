@@ -106,7 +106,6 @@ return [
 
         'mongocn_store' => [
             'driver'   => 'mongodb',
-            //'host'     => env('DB_CN_Store', 'localhost'),
             'host'     => [env('DB_CN_Store1', 'localhost'), env('DB_CN_Store2', 'localhost')],
             'port'     => 27017,
             'username' => '',
