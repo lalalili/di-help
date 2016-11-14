@@ -15,13 +15,23 @@
 Nginx + PHP(5.6)
 
 ### Installation
-Set Nginx root path to
+1. Set Nginx root path to
+
 >\<di-help>\public
 
-### Configuration
-Config in .env
+2. Copy
 
-Mongo ip setting：
+>\<di-help>\.env.example
+
+to
+
+>\<di-help>\.env
+
+### Configuration
+
+
+Mongo ip setting in .env：
+
 ```sh
 DB_CN1=10.10.21.71
 DB_CN2=10.10.21.72
