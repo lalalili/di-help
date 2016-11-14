@@ -54,10 +54,13 @@ DB_TW_Store_replicaSetName=rs0
 ```
 ###Controller
   - 門店
+
 >\<di-help>\app\Http\Controllers\StoreController.php
   - 會員查詢
+
 >\<di-help>\app\Http\Controllers\MemberController.php
   - 指標
+
 >\<di-help>\app\Http\Controllers\DIYReportController.php
 
 ###Route
