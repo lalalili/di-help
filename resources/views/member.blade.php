@@ -16,13 +16,13 @@
                 </div>
                 <div class="form-group">
                     <div class="col-lg-2">
-                        <label>ShopID: (ex:ablejeans)</label>
+                        <label>ShopID: (e.g.,ablejeans)</label>
                         <input name="ShopID" class="form-control" placeholder="" value="{{ $ShopID }}">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-3">
-                        <label>會員編號: (ex:13542525120)</label>
+                        <label>會員編號: (e.g.,13542525120)</label>
                         <input name="MemberID" class="form-control" placeholder="" value="{{ $MemberID }}">
                     </div>
                 </div>

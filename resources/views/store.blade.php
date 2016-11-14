@@ -16,13 +16,13 @@
             </div>
             <div class="form-group">
                 <div class="col-lg-2">
-                    <label>ShopID: (ex:ablejeans)</label>
+                    <label>ShopID: (e.g.,ablejeans)</label>
                     <input name="ShopID" class="form-control" placeholder="" value="{{ $ShopID }}">
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-lg-5">
-                    <label>StoreName: (ex:TJ01SH19天津恒隆广场)</label>
+                    <label>StoreName: (e.g.,TJ01SH19天津恒隆广场)</label>
                     <input name="StoreName" class="form-control" placeholder="" value="{{ $StoreName }}">
                 </div>
             </div>
@@ -43,7 +43,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="panel panel-new">
-                <div class="panel-heading"> 門店層級 (ex:ablejeans^加盟^北区加盟^购物中心^TJ01SH19 )</div>
+                <div class="panel-heading"> 門店層級 (e.g.,ablejeans^加盟^北区加盟^购物中心^TJ01SH19 )</div>
                 <div class="panel-body">
                     {{ $StoreID }}
                 </div>

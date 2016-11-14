@@ -52,6 +52,10 @@ DB_TW_Store_USERNAME=
 DB_TW_Store_PASSWORD=
 DB_TW_Store_replicaSetName=rs0
 ```
+
+###Route
+>\<di-help>\app\Http\routes.php
+
 ###Controller
   - 門店
 
@@ -65,11 +69,18 @@ DB_TW_Store_replicaSetName=rs0
 
 >\<di-help>\app\Http\Controllers\DIYReportController.php
 
-###Route
->\<di-help>\app\Http\routes.php
+###View
+- 門店
 
+>\<di-help>\resources\views\store.blade.php
 
+- 會員查詢
 
+>\<di-help>\resources\views\member.blade.php
+
+- 指標
+
+>\<di-help>\resources\views\diy.blade.php
 
 
 [di-help]: <http://10.0.3.163/diy>
