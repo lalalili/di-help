@@ -15,11 +15,11 @@
 Nginx + PHP(5.6)
 
 ### Installation
-1. Set Nginx root path to
+- Set Nginx root path to
 
 >\<di-help>\public
 
-2. Copy
+- Copy
 
 >\<di-help>\.env.example
 
